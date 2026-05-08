@@ -1,0 +1,30 @@
+# Build output
+build/bin/
+
+# Go
+*.exe
+*.test
+*.out
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Database (user data stays local)
+*.db
+*.db-shm
+*.db-wal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Wails dev artifacts
+*.log
+nohup.out
